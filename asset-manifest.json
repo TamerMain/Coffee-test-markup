@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/coffee-test-markup-deploy/static/css/main.80340809.chunk.css",
+    "main.js": "/coffee-test-markup-deploy/static/js/main.4969ebba.chunk.js",
+    "main.js.map": "/coffee-test-markup-deploy/static/js/main.4969ebba.chunk.js.map",
+    "runtime-main.js": "/coffee-test-markup-deploy/static/js/runtime-main.3b277e52.js",
+    "runtime-main.js.map": "/coffee-test-markup-deploy/static/js/runtime-main.3b277e52.js.map",
+    "static/js/2.62378c22.chunk.js": "/coffee-test-markup-deploy/static/js/2.62378c22.chunk.js",
+    "static/js/2.62378c22.chunk.js.map": "/coffee-test-markup-deploy/static/js/2.62378c22.chunk.js.map",
+    "static/js/3.71d64acd.chunk.js": "/coffee-test-markup-deploy/static/js/3.71d64acd.chunk.js",
+    "static/js/3.71d64acd.chunk.js.map": "/coffee-test-markup-deploy/static/js/3.71d64acd.chunk.js.map",
+    "index.html": "/coffee-test-markup-deploy/index.html",
+    "static/css/main.80340809.chunk.css.map": "/coffee-test-markup-deploy/static/css/main.80340809.chunk.css.map",
+    "static/js/2.62378c22.chunk.js.LICENSE.txt": "/coffee-test-markup-deploy/static/js/2.62378c22.chunk.js.LICENSE.txt",
+    "static/media/Arrow 1.d75601a4.svg": "/coffee-test-markup-deploy/static/media/Arrow 1.d75601a4.svg",
+    "static/media/Arrow 2.ce107e2b.svg": "/coffee-test-markup-deploy/static/media/Arrow 2.ce107e2b.svg",
+    "static/media/Vector 22.e2b7a069.svg": "/coffee-test-markup-deploy/static/media/Vector 22.e2b7a069.svg",
+    "static/media/Vector 23.e410b4b4.svg": "/coffee-test-markup-deploy/static/media/Vector 23.e410b4b4.svg",
+    "static/media/Vector 27.af61e522.svg": "/coffee-test-markup-deploy/static/media/Vector 27.af61e522.svg",
+    "static/media/arrow.4f62e159.svg": "/coffee-test-markup-deploy/static/media/arrow.4f62e159.svg",
+    "static/media/facebook.49025a59.svg": "/coffee-test-markup-deploy/static/media/facebook.49025a59.svg",
+    "static/media/insta.854a73d4.svg": "/coffee-test-markup-deploy/static/media/insta.854a73d4.svg",
+    "static/media/line.49208c22.svg": "/coffee-test-markup-deploy/static/media/line.49208c22.svg",
+    "static/media/map.4ef9e931.png": "/coffee-test-markup-deploy/static/media/map.4ef9e931.png",
+    "static/media/twitter.91951e5b.svg": "/coffee-test-markup-deploy/static/media/twitter.91951e5b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b277e52.js",
+    "static/js/2.62378c22.chunk.js",
+    "static/css/main.80340809.chunk.css",
+    "static/js/main.4969ebba.chunk.js"
+  ]
+}
