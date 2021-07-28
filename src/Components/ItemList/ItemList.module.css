@@ -1,0 +1,17 @@
+.background {
+  width: inherit;
+  height: 550px;
+  margin: 50px 0 0 0;
+  background-color: #eff7f6;
+}
+
+.div {
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+}
+
+.div .arrow {
+  background-color: transparent;
+  border-color: transparent;
+}

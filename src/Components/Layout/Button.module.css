@@ -1,0 +1,11 @@
+.button {
+    color: #ffffff;
+    background-color: #2D635E;
+    border-color: transparent;
+    width: 235px;
+    height: 55px;
+    border-radius: 7px;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+}

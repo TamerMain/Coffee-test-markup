@@ -1,0 +1,66 @@
+.div {
+    height: 466px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order {
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.order p {
+    font-family: 'Cedarville Cursive';
+    font-size: 2rem;
+    margin: -15px 0;
+}
+
+
+.logo {
+
+    display: flex;
+    align-items: flex-end;
+    height: inherit;
+    background-color: #FFFFFF;
+}
+
+.logo .button {
+    min-width: 150px;
+    height: 150px;
+    background-color: #e3ebe7;
+    opacity: 60%;
+    border-color: transparent;
+}
+
+.logo .background {
+    width: 410px;
+    height: inherit;
+    background-color: #E3EBE7;
+}
+
+.logo .img {
+    position: relative;
+    top: 125px;
+    left: 50px;
+}
+
+.logo .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 72px;
+}
+
+.contacts p {
+    color: #444A4A;
+    font-size: 2.4rem;
+    width: 140px;
+    transform: rotate(270deg);
+    transform-origin:  97px 3px;
+}

@@ -1,0 +1,33 @@
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 0 0 0;
+}
+
+.background {
+    width: auto;
+    height: 287px;
+    background-color: #FAE9E0;
+}
+
+.background p {
+    font-family: 'Cedarville Cursive';
+    font-size: 1.8rem;
+    transform: rotate(270deg);
+    transform-origin: 0px 0px;
+    position: relative;
+    top: 70px;
+    right: 10px;
+
+}
+.background img {
+    position: relative;
+    left: 25px;
+}
+
+
+.description {
+    display: table-column;
+    margin: 0 0 0 100px;
+}
