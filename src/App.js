@@ -1,8 +1,10 @@
 import { Fragment } from "react";
-import WidthWrapper from "./Components/Layout/WidthWrapper";
+import WidthWrapper from "./Components/Common/WidthWrapper";
 
 import Header from "./Components/Header";
-import Main from "./Components/Main/Main";
+import Promotion from './Components/Main/Promotion';
+import CoffeeShop from './Components/Main/CoffeeShop';
+import Description from "./Components/Main/Description";
 import ItemList from "./Components/ItemList/ItemList";
 import Footer from "./Components/Footer";
 
@@ -11,7 +13,9 @@ function App() {
     <Fragment>
       <WidthWrapper>
         <Header />
-        <Main />
+        <CoffeeShop />
+        <Description />
+        <Promotion />
       </WidthWrapper>
       <ItemList />
       <WidthWrapper>

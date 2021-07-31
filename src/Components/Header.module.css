@@ -1,11 +1,13 @@
 .header {
+    position: relative;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 50px 0 50px 0;
     font-weight: bold;
 }
 
-.image {
+.header .image {
     width: 20%;
     display: flex;
     align-items: center;
@@ -13,9 +15,14 @@
 }
 
 
-.nav {
+.header nav {
     display: flex;
     width: 60%;
     justify-content: space-between;
     align-items: center;
+}
+@media (max-width: 992px) {
+    .header nav {
+        display: none;
+    }
 }

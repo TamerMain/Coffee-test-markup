@@ -1,5 +1,5 @@
 import classes from './Header.module.css';
-import Button from './Layout/Button';
+import Button from './Common/Button';
 import logo from '../Images/Logo.png';
 import logoText from '../Images/Logo text.png';
 

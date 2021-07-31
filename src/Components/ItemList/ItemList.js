@@ -1,4 +1,5 @@
-import WidthWrapper from "../Layout/WidthWrapper";
+import WidthWrapper from "../Common/WidthWrapper";
+import useInnerWidth from '../../hooks/useInnerWidth';
 
 import Item from "./Item";
 import classes from "./ItemList.module.css";
@@ -24,15 +25,28 @@ const coffee = [
 ];
 
 function ItemList() {
+  const [currentWidth] = useInnerWidth();
+
+  let sliceSize;
+  if (currentWidth > 1300) {sliceSize = 3};
+  if (currentWidth < 1300) {sliceSize = 2};
+  if (currentWidth < 992) {sliceSize = 1};
+  
+
   return (
     <div className={classes.background}>
       <WidthWrapper>
-        <div className={classes.div}>
-          <button className={classes.arrow}><img src={leftArrow} alt="Left Arrow"></img></button>
-          {coffee.map((item) => (
+        <div>{`${currentWidth}`}</div>
+        <div className={classes.items}>
+          <button>
+            <img src={leftArrow} alt="Left Arrow"></img>
+          </button>
+          {coffee.slice(0, sliceSize).map((item) => (
             <Item name={item.name} description={item.description}></Item>
           ))}
-          <button className={classes.arrow}><img src={rightArrow} alt="Right Arrow"></img></button>
+          <button>
+            <img src={rightArrow} alt="Right Arrow"></img>
+          </button>
         </div>
       </WidthWrapper>
     </div>

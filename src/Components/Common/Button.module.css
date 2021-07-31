@@ -9,3 +9,9 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.25rem;
 }
+
+@media (max-width: 992px) {
+    .button {
+        width: 100%;
+    }
+}

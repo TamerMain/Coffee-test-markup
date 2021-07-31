@@ -4,17 +4,24 @@ body {
   font-family: 'Josefin Sans', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4rem;
 }
 
 h2 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 2.5rem;
   font-weight: lighter;
+  margin-top: 0;
 }
-
-h1 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 4rem;
+@media (max-width: 992px) {
+  h2 {
+    margin-top: 35px;
+  }
 }
 
 h3 {
@@ -23,8 +30,12 @@ h3 {
 }
 
 p {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 1.25rem;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: calc(1rem + 0.22vw);
   line-height: 1.5;
-  color: #444A4A;
+  color: #444a4a;
+}
+
+button {
+  cursor: pointer;
 }

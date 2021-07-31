@@ -1,14 +1,28 @@
-.div {
+.coffee {
     height: 466px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+@media (max-width: 992px) {
+    .coffee {
+        height: 466px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 .order {
-    flex-grow: 4;
     display: flex;
     flex-direction: column;
+}
+@media (max-width: 992px) {
+    .order {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .order p {
@@ -19,34 +33,37 @@
 
 
 .logo {
-
     display: flex;
     align-items: flex-end;
     height: inherit;
     background-color: #FFFFFF;
 }
+@media (max-width: 992px) {
+    .logo {
+        display: none;
+    }
+}
 
-.logo .button {
-    min-width: 150px;
+.logo button {
+    width: 150px;
     height: 150px;
-    background-color: #e3ebe7;
-    opacity: 60%;
+    background-color: #eff5f2;
     border-color: transparent;
 }
 
-.logo .background {
+.background {
     width: 410px;
     height: inherit;
     background-color: #E3EBE7;
 }
 
-.logo .img {
+.background > img {
     position: relative;
     top: 125px;
     left: 50px;
 }
 
-.logo .contacts {
+.contacts {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -63,4 +80,8 @@
     width: 140px;
     transform: rotate(270deg);
     transform-origin:  97px 3px;
+}
+
+.contacts img {
+    cursor: pointer;
 }

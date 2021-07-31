@@ -1,4 +1,4 @@
-import Button from "../Layout/Button";
+import Button from "../Common/Button";
 import classes from "./CoffeeShop.module.css";
 import mealsImage from "../../SVG/Vector 22.svg";
 import twitterLogo from "../../SVG/twitter.svg";
@@ -8,26 +8,26 @@ import buttonArrow from '../../SVG/arrow.svg';
 
 function CoffeeShop() {
   return (
-    <div className={classes.div}>
+    <div className={classes.coffee}>
       <div className={classes.order}>
         <p>Drink coffee enjoy with Samwayle</p>
         <h1>Coffee Shop</h1>
         <Button>Order here</Button>
       </div>
       <div className={classes.logo}>
-        <button className={classes.button}><img src={buttonArrow} alt={buttonArrow}></img></button>
+        <button><img src={buttonArrow} alt={buttonArrow}></img></button>
         <div className={classes.background}>
-          <img className={classes.img} src={mealsImage} alt="Img_1"></img>
+          <img src={mealsImage} alt="Manual Coffee Grinder"></img>
         </div>
         <div className={classes.contacts}>
           <div>
-            <img src={twitterLogo} alt="Twitter"></img>
+            <img src={twitterLogo} alt="Twitter Link"></img>
           </div>
           <div>
-            <img src={instagramLogo} alt="Instagram"></img>
+            <img src={instagramLogo} alt="Instagram Link"></img>
           </div>
           <div>
-            <img src={facebookLogo} alt="Facebook"></img>
+            <img src={facebookLogo} alt="Facebook Link"></img>
           </div>
           <div>
             <p>Follow us</p>

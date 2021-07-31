@@ -6,16 +6,14 @@ import classes from "./Footer.module.css";
 
 function Footer() {
   return (
-    <Fragment>
-      <div className={classes.div}>
-        <div>
-          <img src={image} alt="Img_4"></img>
-        </div>
-        <div>
-          <img className={classes.line} src={line} alt="Line"></img>
-          <p className={classes.contacts}>Contacts</p>
+    <>
+      <div className={classes.footer}>
+        <div className={classes.map}>
+          <p>Contacts</p>
+          <img src={image} alt="Map" />
         </div>
         <p className={classes.adress}>
+          <img src={line} alt="Pointer line" />
           <h3>Our Adress</h3>
           <span>110 St-Cathedral Pkwy Station</span>
           <span>4310 94th St, Flushing</span>
@@ -23,10 +21,10 @@ function Footer() {
           <span>5627 Van Doren St, Queens</span>
         </p>
       </div>
-      <div className={classes.span}>
+      <div className={classes.copyright}>
         <p>2020 (c) - Samwyle bandtitos</p>
       </div>
-    </Fragment>
+    </>
   );
 }
 
