@@ -10,8 +10,11 @@
     font-size: 1.25rem;
 }
 
-.button:hover, .button:active  {
+.button:hover, .button:focus  {
     background-color: #214b47;
+}
+
+.button:active {
     box-shadow: inset 4px 2px  #132c2a;
 }
 
