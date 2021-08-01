@@ -1,12 +1,10 @@
-import { Fragment } from "react";
-
 import image from "../Images/map.png";
 import line from "../SVG/line.svg";
 import classes from "./Footer.module.css";
 
 function Footer() {
   return (
-    <>
+    <footer>
       <div className={classes.footer}>
         <div className={classes.map}>
           <p>Contacts</p>
@@ -24,7 +22,7 @@ function Footer() {
       <div className={classes.copyright}>
         <p>2020 (c) - Samwyle bandtitos</p>
       </div>
-    </>
+    </footer>
   );
 }
 

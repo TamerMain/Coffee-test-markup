@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 50px 0 50px 0;
+    padding: 50px 0;
     font-weight: bold;
 }
 
@@ -13,7 +13,12 @@
     align-items: center;
     justify-content: space-between;
 }
-
+@media (max-width: 992px) {
+    .header > button {
+        border-color: transparent;
+        background-color: transparent;
+    }
+}
 
 .header nav {
     display: flex;

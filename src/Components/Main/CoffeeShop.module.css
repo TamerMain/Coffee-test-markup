@@ -82,6 +82,11 @@
     transform-origin:  97px 3px;
 }
 
-.contacts img {
-    cursor: pointer;
+.contacts button {
+    position: relative;
+    left: 23px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-color: transparent;
 }

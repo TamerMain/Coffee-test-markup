@@ -23,6 +23,11 @@ h2 {
     margin-top: 35px;
   }
 }
+@media (max-width: 375px) {
+  h2 {
+    font-size: calc(2.5rem - 1.7vw);
+  }
+}
 
 h3 {
   font-family: "Josefin Sans", sans-serif;
@@ -35,6 +40,12 @@ p {
   line-height: 1.5;
   color: #444a4a;
 }
+@media (max-width: 992px) {
+  p {
+    font-size: 1.25rem;
+  }
+}
+
 
 button {
   cursor: pointer;

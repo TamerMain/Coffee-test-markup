@@ -10,6 +10,11 @@
     font-size: 1.25rem;
 }
 
+.button:hover, .button:active  {
+    background-color: #214b47;
+    box-shadow: inset 4px 2px  #132c2a;
+}
+
 @media (max-width: 992px) {
     .button {
         width: 100%;

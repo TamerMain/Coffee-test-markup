@@ -36,7 +36,6 @@ function ItemList() {
   return (
     <div className={classes.background}>
       <WidthWrapper>
-        <div>{`${currentWidth}`}</div>
         <div className={classes.items}>
           <button>
             <img src={leftArrow} alt="Left Arrow"></img>

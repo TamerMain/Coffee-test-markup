@@ -20,15 +20,15 @@ function CoffeeShop() {
           <img src={mealsImage} alt="Manual Coffee Grinder"></img>
         </div>
         <div className={classes.contacts}>
-          <div>
+          <button>
             <img src={twitterLogo} alt="Twitter Link"></img>
-          </div>
-          <div>
+          </button>
+          <button>
             <img src={instagramLogo} alt="Instagram Link"></img>
-          </div>
-          <div>
+          </button>
+          <button>
             <img src={facebookLogo} alt="Facebook Link"></img>
-          </div>
+          </button>
           <div>
             <p>Follow us</p>
           </div>
