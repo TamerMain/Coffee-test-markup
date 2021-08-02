@@ -1,6 +1,6 @@
 .background {
   height: 550px;
-  margin: 100px 0;
+  margin: 100px auto;
   background-color: #eff7f6;
 }
 @media (max-width: 992px) {

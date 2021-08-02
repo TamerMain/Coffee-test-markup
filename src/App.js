@@ -16,7 +16,7 @@ function App() {
     setMenuOpened(true);
   };
 
-  const closeMenuHandler = () => {
+  async function closeMenuHandler() {
     setMenuOpened(false);
   };
 

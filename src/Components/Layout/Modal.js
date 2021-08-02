@@ -16,11 +16,11 @@ function Modal(props) {
         <button onClick={props.onCloseMenu}><img src={cross} alt="Close menu"></img></button>
       </header>
       <div className={classes.menuLinks}>
-        <h3>Home</h3>
-        <h3>About us</h3>
-        <h3>Promotion</h3>
-        <h3>Shop</h3>
-        <h3>Contacts</h3>
+        <h3 onClick={props.onNavMenu}>Home</h3>
+        <h3 onClick={props.onNavMenu}>About us</h3>
+        <h3 onClick={props.onNavMenu}>Promotion</h3>
+        <h3 onClick={props.onNavMenu}>Shop</h3>
+        <h3 onClick={props.onNavMenu}>Contacts</h3>
       </div>
       <footer>
         <button><img src={instagramLogo} alt="Instagram Link"></img></button>

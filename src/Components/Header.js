@@ -21,10 +21,10 @@ function Header(props) {
         </button>
       ) : (
         <nav className={classes.nav}>
-          <p>About us</p>
-          <p>Promotion</p>
-          <p>Shop</p>
-          <p>Contacts</p>
+          <p onClick={() => window.scroll(0,700)}>About us</p>
+          <p onClick={() => window.scroll(0,1200)}>Promotion</p>
+          <p onClick={() => window.scroll(0,1700)}>Shop</p>
+          <p onClick={() => window.scroll(0,2300)}>Contacts</p>
           <Button style={{ width: "142px", height: "40px", fontSize: "1rem" }}>
             Contact Us
           </Button>
