@@ -1,0 +1,50 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 25px 0;
+  font-weight: bold;
+}
+
+.header .image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+@media (max-width: 992px) {
+  .header > button {
+    border-color: transparent;
+    background-color: transparent;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+@media (max-width: 992px) {
+  .nav {
+    display: none;
+  }
+}
+
+.nav p:hover {
+  color: seagreen;
+  cursor: pointer;
+}
+
+.button {
+  width: 142px;
+  height: 40px;
+  font-size: 1rem;
+}
+
+.burger-menu {
+  position: fixed;
+  right: 25px;
+  z-index: 100;
+}

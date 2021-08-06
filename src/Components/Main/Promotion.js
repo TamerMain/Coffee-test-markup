@@ -1,10 +1,10 @@
 import classes from "./Promotion.module.css";
-import cupImage from "../../SVG/Vector 27.svg";
+import paperCupImage from "../../SVG/Vector 27.svg";
 import Button from "../Common/Button";
 
 function Promotion() {
   return (
-    <div className={classes.promotion}>
+    <div id="Promotion" className={classes.promotion}>
       <div>
         <h2>Coffee of the day</h2>
         <p>
@@ -18,7 +18,7 @@ function Promotion() {
       </div>
       <div className={classes.background}>
         <p>Promotion</p>
-        <img src={cupImage} alt="Paper cup of coffee"></img>
+        <img src={paperCupImage} alt="Paper cup of coffee" />
       </div>
     </div>
   );

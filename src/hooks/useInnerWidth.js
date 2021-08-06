@@ -5,7 +5,9 @@ function useInnerWidth() {
   const cooldown = useRef(false);
 
   const updateSize = useCallback(() => {
-    const setWidth =() => {setCurrentWidth(prev => window.innerWidth)};
+    const setWidth = () => {
+      setCurrentWidth((prev) => window.innerWidth);
+    };
     if (cooldown.current) {
       return null;
     } else {

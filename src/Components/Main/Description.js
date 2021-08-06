@@ -3,10 +3,10 @@ import cupImage from "../../SVG/Vector 23.svg";
 
 function Description() {
   return (
-    <div className={classes.description}>
+    <div id="About us" className={classes.description}>
       <div className={classes.background}>
         <p>About Us</p>
-        <img src={cupImage} alt="Cup of coffee"></img>
+        <img src={cupImage} alt="Cup of coffee" />
       </div>
       <div className={classes["aboutUs"]}>
         <h2>Coffee Shop Samwayle</h2>

@@ -1,0 +1,87 @@
+.feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 0;
+}
+@media (max-width: 576px) and (min-height: 450px) {
+  .feedback{
+    flex-direction: column;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 576px) and (min-height: 450px) {
+  .form {
+    align-items: center;
+  }
+}
+
+.form label {
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+.form input {
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 128, 128, 0.15);
+}
+
+.form input:focus {
+  outline: none;
+  border: 2px solid rgba(0, 128, 128, 1);
+}
+
+.form input:hover {
+  border: 2px solid rgba(0, 128, 128, 1);
+}
+
+.button {
+  width: 142px;
+  height: 40px;
+  font-size: 1rem;
+}
+
+.button-request {
+  width: 142px;
+  height: 40px;
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+.modal {
+  top: 20vh;
+  left: 35%;
+  width: 30%;
+}
+@media (max-width: 1200px) {
+  .modal{
+    left: 30%;
+    width: 40%;
+  }
+}
+@media (max-width: 992px) {
+  .modal{
+    top: 10vh;
+    left: 15%;
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .modal{
+    left: 10%;
+    width: 80%;
+  }
+}
+@media (max-width: 576px) {
+  .modal{
+    right: 5%;
+    width: 70%;
+  }
+}

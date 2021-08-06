@@ -27,7 +27,7 @@ function SampleNextArrow(props) {
     );
   }
 
-export default class MultipleItems extends Component {
+export default class Carousel extends Component {
   render() {
     const settings = {
       dots: false,

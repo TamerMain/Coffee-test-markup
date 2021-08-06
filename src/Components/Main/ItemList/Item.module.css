@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 430px;
+  max-width: 320px;
+  margin: 45px 15px;
+  padding: 10px 45px 20px 45px;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px #d3dad5;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.item button {
+  flex: flex-end;
+}
+
+.item h3 {
+  flex: flex-start;
+}
+
+@media (max-width: 403px) {
+  .item h3 {
+    margin-bottom: 0px;
+    font-size: 8vw;
+  }
+  .item p {
+    margin: 0px 0px;
+    font-size: calc(1rem + 0.5vw);
+  }
+}

@@ -1,7 +1,7 @@
-import MultipleItems from "./Carousel";
+import Carousel from "../../Common/Carousel";
 
-import WidthWrapper from "../Common/WidthWrapper";
-import useInnerWidth from "../../hooks/useInnerWidth";
+import WidthWrapper from "../../Common/WidthWrapper";
+import useInnerWidth from "../../../hooks/useInnerWidth";
 
 import Item from "./Item";
 import classes from "./ItemList.module.css";
@@ -84,28 +84,20 @@ function ItemList() {
   }
 
   return (
-    <div className={classes.background}>
-    <WidthWrapper>
-    <MultipleItems sliceSize={sliceSize} showArrows={showArrows}>
-      {coffee.map((item) => (
-        <Item
-          key={item.key}
-          name={item.name}
-          description={item.description}
-        ></Item>
-      ))}
-    </MultipleItems>
-    </WidthWrapper>
+    <div id="Shop" className={classes.background}>
+      <WidthWrapper>
+        <Carousel sliceSize={sliceSize} showArrows={showArrows}>
+          {coffee.map((item) => (
+            <Item
+              key={item.key}
+              name={item.name}
+              description={item.description}
+            />
+          ))}
+        </Carousel>
+      </WidthWrapper>
     </div>
   );
 }
-
-// {coffee.map((item) => (
-//   <Item
-//     key={item.key}
-//     name={item.name}
-//     description={item.description}
-//   ></Item>
-// ))}
 
 export default ItemList;

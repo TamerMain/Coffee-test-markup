@@ -1,65 +1,65 @@
 .promotion {
-    height: 370px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 200px 70px 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 370px;
+  margin: 200px 70px 50px 0;
 }
 @media (max-width: 992px) {
-    .promotion {
-        display: flex;
-        height: unset;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-        align-items: center;
-        margin: 50px 0 0 0;
-    }
+  .promotion {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: unset;
+    margin: 50px 0 0 0;
+  }
 }
-
 
 .background {
-    position: relative;
-    height: 276px;
-    flex: 0 0 410px;
-    margin: 0 0 0 100px;
-    background-color: #E3EBE7;
+  position: relative;
+  flex: 0 0 410px;
+  margin: 0 0 0 100px;
+  height: 276px;
+  background-color: #e3ebe7;
 }
 @media (max-width: 992px) {
-    .background {
-        display: flex;
-        flex: unset;
-        justify-content: center;
-        margin: unset;
-        width: 100%;
-        padding: 0 5vw 0 5vw;
-    }
+  .background {
+    display: flex;
+    flex: unset;
+    justify-content: center;
+    width: 100%;
+    margin: unset;
+    padding: 0 5vw 0 5vw;
+  }
 }
 
 .background img {
-    position: relative;
-    top: -25px;
-    left: 90px;
+  position: relative;
+  object-fit: cover;
+  top: -25px;
+  left: 90px;
 }
 @media (max-width: 992px) {
-    .background img {
-        position: relative;
-        top: -25px;
-        left: unset;
-        height: 320px;
-    }
+  .background img {
+    position: relative;
+    top: -25px;
+    left: unset;
+    height: 320px;
+  }
 }
 
 .background p {
-    font-family: 'Cedarville Cursive';
-    font-size: 1.8rem;
-    position: absolute;
-    top: 10px;
-    right: -50px;
-    transform: rotate(270deg);
-    margin: 0 0 100px 0;
+  position: absolute;
+  margin: 0 0 100px 0;
+  transform: rotate(270deg);
+  top: 10px;
+  right: -50px;
+  font-family: "Cedarville Cursive";
+  font-size: 1.8rem;
 }
 @media (max-width: 992px) {
-    .background p {
-        display: none;
-    }
+  .background p {
+    display: none;
+  }
 }

@@ -1,92 +1,91 @@
-.coffee {
+.welcome {
+  height: 466px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 992px) {
+  .welcome {
     height: 466px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-@media (max-width: 992px) {
-    .coffee {
-        height: 466px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    justify-content: center;
+  }
 }
 
 .order {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 @media (max-width: 992px) {
-    .order {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .order p {
-    font-family: 'Cedarville Cursive';
-    font-size: 2rem;
-    margin: -15px 0;
+  font-family: "Cedarville Cursive";
+  font-size: 2rem;
+  margin: -15px 0;
 }
-
 
 .logo {
-    display: flex;
-    align-items: flex-end;
-    height: inherit;
-    background-color: #FFFFFF;
+  display: flex;
+  align-items: flex-end;
+  height: inherit;
+  background-color: #ffffff;
 }
 @media (max-width: 992px) {
-    .logo {
-        display: none;
-    }
+  .logo {
+    display: none;
+  }
 }
 
 .logo button {
-    width: 150px;
-    height: 150px;
-    background-color: #eff5f2;
-    border-color: transparent;
+  width: 150px;
+  height: 150px;
+  background-color: #eff5f2;
+  border-color: transparent;
 }
 
 .background {
-    width: 410px;
-    height: inherit;
-    background-color: #E3EBE7;
+  width: 410px;
+  height: inherit;
+  background-color: #e3ebe7;
 }
 
 .background > img {
-    position: relative;
-    top: 125px;
-    left: 50px;
+  position: relative;
+  top: 125px;
+  left: 50px;
 }
 
 .contacts {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    width: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 72px;
 }
 
 .contacts p {
-    color: #444A4A;
-    font-size: 2.4rem;
-    width: 140px;
-    transform: rotate(270deg);
-    transform-origin:  97px 3px;
+  color: #444a4a;
+  font-size: 2.4rem;
+  width: 140px;
+  transform: rotate(270deg);
+  transform-origin: 97px 3px;
 }
 
 .contacts button {
-    position: relative;
-    left: 23px;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    border-color: transparent;
+  position: relative;
+  left: 23px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-color: transparent;
 }

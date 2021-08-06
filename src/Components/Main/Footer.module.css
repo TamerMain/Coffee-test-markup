@@ -1,0 +1,58 @@
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 100px 0;
+}
+@media (max-width: 1300px) {
+  .contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.map {
+    position: relative;
+}
+
+.map p {
+  position: absolute;
+  z-index: 100;
+  top: -50px;
+  right: 30px;
+  transform: rotate(270deg);
+  transform-origin: right top;
+  font-family: "Cedarville Cursive";
+  font-size: 1.8rem;
+}
+@media (max-width: 1300px) {
+  .map p {
+    display: none;
+  }
+}
+
+.adress {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@media (max-width: 1300px) {
+  .adress {
+    margin: 0;
+  }
+}
+
+.line {
+  position: relative;
+  top: 30px;
+}
+@media (max-width: 1500px) {
+  .line {
+    display: none;
+  }
+}
+
+.copyright {
+  text-align: center;
+}
